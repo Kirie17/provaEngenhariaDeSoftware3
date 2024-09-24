@@ -9,7 +9,7 @@ public class MathUtilTest {
     public void testDivisaoPorZero() {
         assertThrows(ArithmeticException.class, () -> {
             MathUtil.Calculadora.divisao(10, 0);
-        }, "A divisão por zero deveria lançar uma ArithmeticException.")
+        }, "A divisão por zero deveria lançar uma ArithmeticException.");
     }
 }
 
